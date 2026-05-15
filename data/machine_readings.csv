@@ -1,0 +1,5 @@
+temperature,vibration,pressure,runtime_hours,failure
+62,1.2,2.1,300,0
+74,2.4,2.0,800,0
+91,7.1,3.2,1500,1
+88,6.2,3.1,1320,1
