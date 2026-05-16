@@ -1,6 +1,6 @@
-# Predictive Maintenance ML Analyzer
-
 ![Python CI](https://github.com/JojoMab/predictive-maintenance-ml-analyzer/actions/workflows/python-ci.yml/badge.svg)
+
+# Predictive Maintenance ML Analyzer
 
 Dieses Bewerberprojekt zeigt ein einfaches Klassifikationsmodell mit scikit-learn auf synthetischen Sensordaten. Es simuliert eine kleine Predictive-Maintenance-Aufgabe mit Temperatur, Vibration, Druck, Laufzeit, Fehleranzahl und der Zielvariable `maintenance_needed`.
 
@@ -50,7 +50,7 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 
-## Tests
+## Tests ausführen
 
 ```bash
 python -m pytest tests/ -v
@@ -68,7 +68,7 @@ Report: reports/evaluation_report.txt
 
 ## Hinweis auf synthetische Daten
 
-Alle Sensordaten werden synthetisch erzeugt. Das Projekt ist eine nachvollziehbare ML-Grundlagenübung und kein echtes Wartungssystem.
+Alle Daten sind synthetisch und dienen ausschließlich der Demonstration.
 
 ## English Summary
 
