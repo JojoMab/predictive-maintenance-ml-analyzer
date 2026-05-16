@@ -1,19 +1,5 @@
 # Recruiter Summary
 
-## Kurzbeschreibung
+Der Predictive Maintenance ML Analyzer ist ein Bewerberprojekt für Data Science, KI-Grundlagen und technische Informatik. Es erzeugt synthetische Sensordaten, trainiert ein einfaches Klassifikationsmodell und bewertet es mit Accuracy, Precision, Recall, F1 und Confusion Matrix.
 
-Python-Projekt fuer synthetische Maschinendaten mit Feature Engineering, einfacher Risikoklassifikation und Modell-Evaluation auf Bewerberniveau.
-
-## Sichtbare Kompetenzen
-
-- Python-Grundlagen
-- Datenanalyse
-- Validierung
-- Reporting
-- Tests
-- GitHub Actions
-- Business-/IT-Bezug
-
-## Datenhinweis
-
-Die Daten sind synthetisch und dienen nur der Demonstration.
+Das Projekt zeigt, dass ML-Grundlagen nachvollziehbar umgesetzt und dokumentiert werden können. Es verwendet keine echten Unternehmensdaten.

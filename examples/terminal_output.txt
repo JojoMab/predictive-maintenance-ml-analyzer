@@ -1,5 +1,5 @@
-Report generated successfully.
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-Report: reports/maintenance_report.txt
+Predictive-Maintenance-Pipeline abgeschlossen.
+Accuracy: 0.850
+Precision: 0.780
+Recall: 0.720
+Report: reports/evaluation_report.txt

@@ -2,40 +2,34 @@
 
 ![Python CI](https://github.com/JojoMab/predictive-maintenance-ml-analyzer/actions/workflows/python-ci.yml/badge.svg)
 
-Predictive Maintenance ML Analyzer ist ein Bewerberprojekt für duale Studiengänge in Informatik, Wirtschaftsinformatik, Data Science und KI-nahen Themen. Das Projekt trainiert ein einfaches Klassifikationsmodell mit scikit-learn auf synthetischen Sensordaten und bewertet, ob eine Wartung wahrscheinlich notwendig ist.
+Dieses Bewerberprojekt zeigt ein einfaches Klassifikationsmodell mit scikit-learn auf synthetischen Sensordaten. Es simuliert eine kleine Predictive-Maintenance-Aufgabe mit Temperatur, Vibration, Druck, Laufzeit, Fehleranzahl und der Zielvariable `maintenance_needed`.
 
 ## Bewerbungskontext
 
-Das Projekt zeigt Grundlagen von Data Science, Feature Engineering, Modelltraining und Evaluation. Es eignet sich besonders für Bewerbungen bei MTU, Siemens Energy, Infineon, MAN, Rohde & Schwarz, ASMPT, Atos und weiteren technischen oder datengetriebenen Studienangeboten.
+Das Projekt passt zu dualen Studiengängen in Data Science, KI, Informatik und technischer Informatik. Es ist besonders relevant für MTU, Siemens Energy, Infineon, MAN und Rohde & Schwarz, weil technische Sensordaten, Feature Engineering und Modellbewertung sichtbar werden.
 
 ## Tech Stack
 
-- Python 3
+- Python 3.11
 - pandas
 - numpy
 - scikit-learn
-- Logistic Regression
-- Train/Test Split
-- Accuracy, Precision, Recall, F1
-- Confusion Matrix
-- pytest
-- GitHub Actions CI
+- matplotlib
+- pytest/unittest-kompatible Tests
+- GitHub Actions
 
 ## Funktionen
 
-- synthetische Sensordaten erzeugen
-- Temperatur, Vibration, Druck, Laufzeit und Fehleranzahl verarbeiten
-- neue Features wie `temp_vib_ratio` und `runtime_error_factor` berechnen
-- Daten in Trainings- und Testdaten aufteilen
-- einfaches Klassifikationsmodell trainieren
-- Modell als Datei speichern
+- 500 bis 1000 synthetische Sensordatenpunkte erzeugen
+- Feature Engineering mit zusätzlichen Merkmalen
+- Logistic Regression trainieren
+- Train/Test Split 80/20 verwenden
 - Accuracy, Precision, Recall, F1 und Confusion Matrix berechnen
-- Evaluationsreport als Textdatei erzeugen
-- zentrale Funktionen mit Tests prüfen
+- Evaluation Report als Textdatei erzeugen
 
 ## Projektstruktur
 
-```text
+```txt
 predictive-maintenance-ml-analyzer/
 ├── main.py
 ├── data_generator.py
@@ -44,45 +38,38 @@ predictive-maintenance-ml-analyzer/
 ├── model_evaluator.py
 ├── requirements.txt
 ├── data/
-│   └── sensor_data.csv
 ├── reports/
-│   └── evaluation_report.txt
 ├── tests/
-│   ├── test_features.py
-│   └── test_model.py
-├── docs/
-│   ├── application_fit.md
-│   └── recruiter_summary_de.md
-└── .github/workflows/python-ci.yml
+└── docs/
 ```
 
 ## Schnellstart
 
 ```bash
-python3 -m pip install -r requirements.txt
-python3 main.py
+python -m pip install -r requirements.txt
+python main.py
 ```
 
 ## Tests
 
 ```bash
-python3 -m pytest tests/ -v
+python -m pytest tests/ -v
 ```
 
 ## Beispielausgabe
 
-```text
-Predictive maintenance pipeline completed.
-Accuracy: 0.82
-Precision: 0.78
-Recall: 0.74
+```txt
+Predictive-Maintenance-Pipeline abgeschlossen.
+Accuracy: 0.850
+Precision: 0.780
+Recall: 0.720
 Report: reports/evaluation_report.txt
 ```
 
 ## Hinweis auf synthetische Daten
 
-Alle Daten werden künstlich erzeugt und dienen nur zur nachvollziehbaren Demonstration. Das Projekt bildet kein echtes Unternehmenssystem ab und behauptet keine echte Praxiserfahrung.
+Alle Sensordaten werden synthetisch erzeugt. Das Projekt ist eine nachvollziehbare ML-Grundlagenübung und kein echtes Wartungssystem.
 
 ## English Summary
 
-This applicant project demonstrates a small predictive maintenance workflow with synthetic sensor data. It uses scikit-learn for a simple classification model and reports accuracy, precision, recall, F1 and a confusion matrix. The project is intentionally scoped for dual study applications and avoids exaggerated AI claims.
+This applicant project demonstrates a small machine learning pipeline for predictive maintenance with synthetic sensor data. It uses feature engineering, train/test split, logistic regression and standard evaluation metrics. The project is designed to show data science fundamentals without overstating the scope.

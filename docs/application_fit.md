@@ -2,17 +2,18 @@
 
 ## Projektziel
 
-Python-Projekt fuer synthetische Maschinendaten mit Feature Engineering, einfacher Risikoklassifikation und Modell-Evaluation auf Bewerberniveau.
+Das Projekt simuliert eine einfache Predictive-Maintenance-Aufgabe mit synthetischen Sensordaten und einem scikit-learn-Klassifikationsmodell.
 
 ## Geeignete Zielunternehmen
 
-| Unternehmen | Warum das Projekt passt | Gezeigte Skills | Empfohlene Praesentation |
+| Unternehmen | Warum das Projekt passt | Gezeigte Skills | Empfohlene Präsentation |
 | --- | --- | --- | --- |
-| MTU | Digital Maintenance, technische Sensordaten | Python, Health Score, Evaluation | Als Maintenance-/Sensordatenprojekt praesentieren |
-| ASMPT | Scientific Computing und Maschinendaten | Datenbereinigung, Feature Engineering | Als Data-Science-Projekt praesentieren |
-| Atos / Infineon | KI-/Data-Science-Grundlagen ohne Uebertreibung | Evaluation, Tests, CI | Als ML-Grundlagenprojekt praesentieren |
-| SIXT | optionaler Bezug zu Flottenzustand und Wartungsrisiko | Mobility-/Fleet Analytics | Als datenbasierte Entscheidungsunterstuetzung praesentieren |
+| MTU | Digital Maintenance und technische Sensordaten | Feature Engineering, Evaluation | Als technisches Data-Science-Projekt präsentieren |
+| Siemens Energy | Energie- und Industrieanlagen mit Wartungsbezug | Sensordaten, Klassifikation | Als Predictive-Maintenance-Grundlagenprojekt präsentieren |
+| Infineon | Datenanalyse, technische Systeme, ML-Grundlagen | scikit-learn, Tests, Reports | Als Data-Science-Projekt präsentieren |
+| MAN | Fahrzeug- und Maschinendaten | Wartungsrisiko, Modelltraining | Als Mobilitäts-/Technikdatenprojekt präsentieren |
+| Rohde & Schwarz | Messdaten und technische Analyse | Modellbewertung, Confusion Matrix | Als technische Informatik mit ML-Bezug präsentieren |
 
-## Level-Einschaetzung
+## Level-Einschätzung
 
-Level 2: bewerberfaehig. Das Projekt hat eine klare Problemstellung, synthetische Daten, Tests, CI und eine recruiterfreundliche Dokumentation.
+Level 3: starkes Bewerberprojekt. Es enthält synthetische Daten, Feature Engineering, Modelltraining, Evaluation, Tests, CI und eine klare fachliche Einordnung.
